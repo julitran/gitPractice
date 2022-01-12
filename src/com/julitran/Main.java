@@ -6,10 +6,12 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-	 welcomeToMyProgram();
+
+        Main main = new Main();
+        List calendar = main.welcomeToMyProgram();
     }
 
-    private static void welcomeToMyProgram() {
+    private List welcomeToMyProgram() {
         List calendar = new ArrayList();
         calendar.add("January");
         calendar.add("February");
@@ -25,6 +27,7 @@ public class Main {
         calendar.add("December");
 
         calendar.stream().forEach((element) -> System.out.println(element));
+        return calendar;
     }
 
 }
