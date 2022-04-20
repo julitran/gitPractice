@@ -9,11 +9,11 @@ public class Main {
     public static void main(String[] args) {
 
         Main main = new Main();
-        HashMap calendar = main.getCalendar();
+        HashMap <Integer, String> calendar = main.getCalendar();
         System.out.print(calendar.get(1));
     }
 
-    private HashMap getCalendar() {
+    private HashMap <Integer, String> getCalendar() {
         HashMap<Integer, String> calendar = new HashMap<>();
         calendar.put(1, "January");
         calendar.put(2, "February");
@@ -27,6 +27,7 @@ public class Main {
         calendar.put(10, "October");
         calendar.put(11, "November");
         calendar.put(12, "December");
+        calendar.put(13, "add something here so that main is ahead");
         return calendar;
     }
 
