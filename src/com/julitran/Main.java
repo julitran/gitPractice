@@ -18,6 +18,9 @@ public class Main {
         calendar.put(1, "January");
         calendar.put(2, "February");
         calendar.put(3, "March");
+        calendar.put(4444, "March");
+        calendar.put(4444, "March");
+        calendar.replace(3, "March", "NewMarch");
         calendar.put(4, "April");
         calendar.put(5, "May");
         calendar.put(6, "June");
@@ -26,6 +29,11 @@ public class Main {
         calendar.put(9, "September");
         calendar.put(10, "Octoberrrrrrr");
         calendar.put(11, "November");
+        calendar.put(12, "Decem3434334ber");
+        calendar.put(9, "Septe342342mber");
+        calendar.put(10, "Octob4324errrrrrr");
+        calendar.put(11, "Novem4324ber");
+        calendar.put(12, "Dec32432423423423ember");
         calendar.put(12, "Decem3434334ber");
         return calendar;
     }
