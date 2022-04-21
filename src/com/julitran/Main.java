@@ -30,6 +30,7 @@ public class Main {
         calendar.put(12, "December");
         calendar.put(13, "add something here so that main is ahead");
         calendar.replace(2, "February", "NewFebruary");
+        calendar.put(8434, "random random from Zammy");
         return calendar;
     }
 
