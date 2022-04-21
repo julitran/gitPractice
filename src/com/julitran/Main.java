@@ -19,6 +19,7 @@ public class Main {
         calendar.put(2, "February");
         calendar.put(3, "March");
         calendar.replace(3, "March", "NewMarch");
+        calendar.put(7, "3233232");
         calendar.put(4, "April");
         calendar.put(5, "May");
         calendar.put(6, "June");
