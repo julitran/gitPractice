@@ -18,8 +18,6 @@ public class Main {
         calendar.put(1, "January");
         calendar.put(2, "February");
         calendar.put(3, "March");
-        calendar.replace(3, "March", "NewMarch");
-        calendar.put(7, "3233232");
         calendar.put(4, "April");
         calendar.put(5, "May");
         calendar.put(6, "June");
@@ -29,9 +27,6 @@ public class Main {
         calendar.put(10, "Octoberrrrrrr");
         calendar.put(11, "November");
         calendar.put(12, "December");
-        calendar.put(13, "add something here so that main is ahead");
-        calendar.replace(2, "February", "NewFebruary");
-        calendar.put(8434, "random random from Zammy");
         return calendar;
     }
 
